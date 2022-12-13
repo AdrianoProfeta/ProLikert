@@ -1,8 +1,3 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
 # You can learn more about package authoring with RStudio at:
 #
 #   http://r-pkgs.had.co.nz/
@@ -14,6 +9,12 @@
 #   Test Package:              'Cmd + Shift + T'
 
 #loading libraries
+#@importFrom likert fun
+
+install.packages("likert")
+install.packages("stringr")
+install.packages("sjmisc")
+install.packages("dplyr")
 library(ggplot2)
 library(likert)
 library(png)
@@ -22,7 +23,6 @@ library(dplyr)
 library(sjmisc)
 library(stringr)
 library(surveytoolbox)
-
 
 # ordering möglichkeiten im Facet-wrap verbessern
 # anzeige gruppen in einem facet und anzeige nur einer gruppe im facet und die anderen gruppen im anderen facet
